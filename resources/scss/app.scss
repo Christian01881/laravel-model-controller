@@ -1,0 +1,56 @@
+@use './partials/variables' as *;
+
+$fa-font-path: "../fonts/webfonts" !default;
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+@import '~bootstrap/scss/bootstrap';
+
+
+header
+{
+    height: 80px;
+    color: white;
+    background-color: black;
+}
+
+footer
+{
+    height: 80px;
+    color: white;
+    background-color: black;
+}
+
+main{
+    height: calc(100vh - 160px);
+    overflow: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    width: calc((100% / 3) - 30px);
+    margin-top: 80px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: blue;
+}
+
+.bg-image{
+    height: 100%;
+}
+
+.m-top{
+    margin-top: 260px;
+}
